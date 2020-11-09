@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Курс валют</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Курс валют по отношению к Российскому рублю</h4>
+			</div>
+			<div class="card-body">
+				<div class="input-group" id='actionPanel1'>
+					<div class="input-group-prepend">
+						<span id="selectAllAction">
+							<select class="form-control" id="select"></select>
+						</span>
+					</div>
+					<input type="number" step="0.01" class="form-control" id='inputOne' value="1">
+				</div>
+				<div class="input-group" id='actionPanel1'>
+					<div class="input-group-prepend">
+						<span id="selectAllAction">
+							<select class="form-control" id="selectTwo">
+								<option>RUB</option>
+							</select>
+						</span>
+					</div>
+					<input type="number" step="0.01" class="form-control" id='inputTwo'>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="script.js"></script>
+</body>
